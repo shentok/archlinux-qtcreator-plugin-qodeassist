@@ -1,7 +1,7 @@
 # Maintainer: Bernhard Beschow <shentey at gmail dot com>
 
 pkgname=qtcreator-plugin-qodeassist
-pkgver=0.5.7
+pkgver=0.5.9
 pkgrel=1
 pkgdesc="AI-powered coding assistant plugin for Qt Creator"
 groups=('qt')
@@ -19,7 +19,7 @@ optdepends=(
     'ollama'
 )
 source=("$pkgname-$pkgver.tar.gzr::${url}/archive/v$pkgver.tar.gz")
-sha256sums=('a2f24c20ce356e2873cbb2b815503aa1b3a0bb19d5cfe883e70e68e5435be415')
+sha256sums=('f12e6ad89c63ffbc78646ab838a621ec59e07689b9603dd13f1f826ef85a5244')
 
 build() {
     cmake \
